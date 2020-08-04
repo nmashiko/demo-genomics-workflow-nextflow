@@ -6,7 +6,7 @@ params.sample_id = "NIST7035"
 // users need to specify a bucket that they have write access to for outputs
 // otherwise you will get Access Denied errors that will end up terminating the workflow
 //params.output = "NONE"
-params.output = "s3://aws-batch-genomics-handson-naokima"
+params.output = "s3://genomics-workflows-efca69f0-d0a6-11ea-9d34-06c69e594abe/output"
 
 // nextflow script is based on Groovy, so all language constructs therein
 // can be used in workflow definitions.
